@@ -1,0 +1,9 @@
+1. The bash script enables to find a file, make a copy of the file with new name taken input from user
+2. It takes inpust for source-file to search for the file and input name for destination file to keep a copy there.
+3. It works and can be accessed through a remote connection over ssh
+
+The command for the remote connection has to be
+
+
+
+ssh <remoteuser>@<ipaddress> 'bash -s' < <path to file/remote_accessCopy.sh>
